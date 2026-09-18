@@ -8,7 +8,7 @@ by Shahab Mohammadi · v 3
 
 ```
 ╭─────────────────────────────────────────────────────╮
-│ ✻ Welcome to Deck!  v2.1 · by Shahab Mohammadi   │
+│ ✻ Welcome to Deck!  v3.0 · by Shahab Mohammadi   │
 │                                                     │
 │   /help for help, /keys for your API key setup      │
 │                                                     │
