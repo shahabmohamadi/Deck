@@ -1,14 +1,14 @@
-# AbuseIP
+# Deck
 
 An interactive terminal console for checking the reputation of IP addresses and file hashes, built in the style of the Claude Code terminal.
 
 AbuseIP queries **AbuseIPDB** and **VirusTotal** side by side, lets you submit abuse reports, and keeps a local history of everything you've checked or reported.
 
-by Shahab Mohammadi · v2.1
+by Shahab Mohammadi · v 3
 
 ```
 ╭─────────────────────────────────────────────────────╮
-│ ✻ Welcome to AbuseIP!  v2.1 · by Shahab Mohammadi   │
+│ ✻ Welcome to Deck!  v2.1 · by Shahab Mohammadi   │
 │                                                     │
 │   /help for help, /keys for your API key setup      │
 │                                                     │
@@ -61,9 +61,9 @@ by Shahab Mohammadi · v2.1
 
 ```bash
 cd ip
-python3 ip.py
+python3 deck.py
 # or
-./ip.py
+./deck.py
 ```
 
 The first time you run a lookup, AbuseIP asks for any API key it needs. Input is masked, and the key is checked against the service before it's saved. You can also add keys any time with `/keys`.
@@ -84,7 +84,7 @@ Type an **IP address** or a **file hash** and press **Enter** to look it up, or 
 | `/help` | Show commands and shortcuts |
 | `/exit` | Exit AbuseIP |
 
-If you leave out the argument (for example, just `/check`), AbuseIP asks for it.
+If you leave out the argument (for example, just `/check`), deck asks for it.
 
 Aliases: `/ip` → `/check`, `/settings` → `/keys`, `/quit` and `/q` → `/exit`, `/?` → `/help`.
 
